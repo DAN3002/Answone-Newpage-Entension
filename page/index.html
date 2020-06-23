@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>New page</title>
+
+   <link rel="stylesheet" href="./style/style.css">
+   <link rel="stylesheet" href="./style/weather.css">
+
+   <script src="./script/libs/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+   <h1 id="title"></h1>
+   <div class="site-content">
+      <div class="forecast-table">
+         <div class="container">
+            <div class="forecast-container">
+               <div class="today forecast" style="width:30%">
+                  <div class="forecast-header">
+                     <div id = "current-date"></div>
+                  </div>
+                  <div class="forecast-content">
+                     <div class="location"></div>
+                     <div class="degree">
+                        <div class="num"></div>
+                        <div class="forecast-icon">
+                           <img src="" alt="" width=90 id="weather-icon">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="today forecast" style="width:70%">
+                  <div class="forecast-header">
+                     <span>News</span>
+                  </div>
+                  <div class="forecast-content">
+                     <ol class = "news-container">
+                        <!-- <li><a href="/">Test title 1</a></li>
+                        <li><a href="/">Test title 2</a></li>
+                        <li><a href="/">Test title 3</a></li>
+                        <li><a href="/">Test title 4</a></li> -->
+                     </ol>
+                  </div>
+               </div>
+            </div>
+            <div class="forecast-container">
+               <div class = "todo-list-container">
+                  <div class="todo-list-header">
+                    <h2>TODO List</h2>
+                    <input type="text" placeholder="Title...">
+                    <span class="addBtn">Add</span>
+                  </div>
+                  <ul class = "todo-list">
+                    <!-- <li>Hit the gym</li>
+                    <li class="checked">Pay bills</li>
+                    <li>Meet George</li>
+                    <li>Buy eggs</li>
+                    <li>Read a book</li>
+                    <li>Organize office</li>
+                    <li>Meet George</li>
+                    <li>Buy eggs</li>
+                    <li>Read a book</li>
+                    <li>Organize office</li> -->
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="./script/Location.js" charset="utf-8"></script>
+   <script src="./script/Weather.js" charset="utf-8"></script>
+   <script src="./script/Storage.js" charset="utf-8"></script>
+   <script src="./script/news.js" charset="utf-8"></script>
+   <script src="./script/Todo.js" charset="utf-8"></script>
+
+   <script src="./script/index.js" charset="utf-8"></script>
+</body>
+</html>

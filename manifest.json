@@ -1,0 +1,14 @@
+{
+   "name": "Answone Newpage",
+   "version": "1.0",
+   "description": "Extension to override new page!",
+   "chrome_url_overrides" : {
+      "newtab": "./page/index.html"
+   },
+   "permissions": [
+      "storage",
+      "geolocation",
+      "https://vnexpress.net/*"
+   ],
+   "manifest_version": 2
+}
